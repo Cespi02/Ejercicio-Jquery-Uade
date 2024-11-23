@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interactiva</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 id="titulo" class="text-center mb-4 text-primary">¡Mirá la siguiente imagen!</h1>
+        
+        <div class="d-flex justify-content-center gap-3 mb-4">
+            <button id="btnOcultar" class="btn btn-danger">Ocultar Imagen</button>
+            <button id="btnMostrar" class="btn btn-success">Mostrar Imagen</button>
+        </div>
+        
+        <div class="text-center">
+            <img id="imagen" src="./assets/monalisa.jpg" alt="Imagen de ejemplo" class="img-fluid rounded shadow">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
